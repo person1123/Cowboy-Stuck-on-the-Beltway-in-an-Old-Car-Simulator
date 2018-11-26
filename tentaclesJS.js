@@ -97,7 +97,7 @@ function draw() {
     );
   }
 
-  image(road, (width - road.width) / 2, 0);
+  image(road, 0, 0, width, height);
 
   for (var i = 0; i < carLocations.length; i++) {
     drawCar(
